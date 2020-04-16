@@ -9,10 +9,13 @@
     "react-scripts": "0.9.5",
     "sass-loader": "^8.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.3"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "parcel -p 2345 watch index.html",
+    "build": "parcel build index.html",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
