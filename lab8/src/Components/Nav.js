@@ -1,9 +1,10 @@
 import React from 'react'
+import imageOne from '../images/book.png'
 
 function Nav() {
     return(
         <div className="nav">
-            <img className="logo" src="./images/book1.png" alt="book"/>
+            <img className="logo" src={imageOne} alt="book"/>
             <ul className="menu">
                 <li><a className="links" href="#">Home</a></li>
                 <li><a className="links" href="#">Books</a></li>
