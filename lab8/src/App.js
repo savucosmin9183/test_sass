@@ -26,8 +26,8 @@ function App(){
     return (
       <Fragment>
         <Layout>
-          <Header/>
           <Nav/>
+          <Header/>
           <Counter count={count}
                    increment={incrementHandler}
                    decrement={decrementHandler}
